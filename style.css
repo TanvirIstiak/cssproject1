@@ -3,7 +3,7 @@
 .head{
     height: auto;
     width: auto;
-    background: gray;
+    background: rgb(248, 250, 247);
     display: flex;
     
   }
@@ -16,8 +16,9 @@
     background: url(coffee.jpg);
     border: 1px solid red;
     border-radius: 50%;
-    
+    margin-left: 10px;
     margin-bottom: 5px;
+    padding-top: 5px;
   }
   
   /*"central coffee design "*/
@@ -25,22 +26,29 @@
   .para1{
     color: black;
     margin-left: 5px;
+    padding-top: 5px;
   }
   
   /*adding menu bar on web */
 
-  .menu-bar{
-      margin-right: 5px;
+  .menu-bar{  
       margin-left:auto;
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
+     
   }
 
 /*adding margin between menu,about,dashboaed*/
 
-  .margin{
-      margin-left: 10px;
-      color: chartreuse;
+  .nav-text{
+    margin-right: 15px;
+    margin-left: 10px;
+    color: black;
+    padding-top: 5px;
+  }
+
+  .nav-text:hover{
+    background-color: rgb(189, 191, 190);
   }
 
   /*first container with background */
@@ -70,23 +78,30 @@
     padding:0;
     width: auto;
     height: auto;
-    background: rgb(212, 214, 188);
+    background: rgb(232, 235, 232);
   }
 
-  .margin2{
-    margin-left: 50px;
-  }
-
-  .alone{
+  
+  .everyImg{
     height: 200px;
     width: 200px;
     margin: 5px;
   }
 
-  .row{
+  .everyImg:hover{
+    box-shadow: 2px 2px 3px,2px 2px 3px,2px 2px 3px,2px 2px 3px ;
+  }
+
+  .margin2{
+    margin-left: 30px;
+    color: black;
+  }
+
+  .image-flex{
     display: flex;
     flex-wrap: wrap;
   }
+
 
   /* container3 */
 
@@ -95,10 +110,10 @@
     padding:0;
     width: auto;
     height: auto;
-    background: rgb(57, 65, 84) ;
+    background: rgb(215, 217, 215) ;
   }
 
-  .display{
+  .img-and-title{
     display: flex;
     flex-wrap: wrap;
   }
@@ -114,10 +129,12 @@
     
   }
 
-  .another-color{
+  .Title-for-img{
     margin-top: 20px;
+    margin-bottom: 10px;
     color: #000;
-    background-color: yellow;
+    background-color: white;
+    border: 1px solid black;
     background-size: cover;
     border-radius: 50PX;
   }
@@ -125,15 +142,20 @@
   .forfooter{
     height: auto;
     width: auto;
-    background: #000;
+    background: rgb(245, 247, 245);
   }
 
   .forfooter>p{
-    color: white;
+    color: black;
     text-align: center;
     padding: 2px;
   }
 
   .getmargin{
     padding-top: 5px;
+  }
+
+  h2{
+    padding-top: 10px;
+    text-shadow: -1px 2px white;
   }
